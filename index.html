@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,9 +45,7 @@
       padding: 4rem 2rem;
     }
     .hero {
-      background: url('https://i.postimg.cc/3rLpSGDf/pngtree-3d-rendered-gym-equipment-against-a-dark-backdrop-image-3764393.jpg') no-repeat center center/cover;
       background: url('https://i.postimg.cc/02k6sy7M/of-fitness-equipment-and-personal-grooming-tools-on-a-clean-background-with-copy-space-free-photo.jpg') no-repeat center center/cover;
-      text-align: center;
       text-align: center;
       padding: 6rem 2rem;
     }
@@ -94,6 +91,38 @@
       background-color: #1a1a1a;
       color: #888;
     }
+    #calories h2 {
+      color: #00c3ff;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    #calories p, #calories ul {
+      max-width: 800px;
+      margin: auto;
+      margin-bottom: 1.5rem;
+    }
+    #calories ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 1rem;
+    }
+    form button {
+      padding: 0.75rem 2rem;
+      background-color: #0059ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #0040c1;
+    }
   </style>
 </head>
 <body>
@@ -105,14 +134,16 @@
   <nav>
     <a href="#home">Home</a>
     <a href="#tips">Tips & Motivation</a>
+    <a href="#calories">Calories Intake</a>
+    <a href="#feedback">Feedback</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="home" class="hero">
-  <h2>Train Anytime, Anywhere</h2>
-  <p>Join our VR-integrated online coaching platform with real-time tracking and expert guidance.</p>
-  <img src="https://i.postimg.cc/02B0yy7Q/360-F-262149183-4-Fvk-Dgc-LNd-Xigd-GOMZFvrv-Fsr4-TODfc7.jpg" alt="Home Gym" style="margin-top:2rem; max-width:90%; border-radius:12px; box-shadow: 0 5px 20px rgba(0,0,0,0.6);">
-</section>
+    <h2>Train Anytime, Anywhere</h2>
+    <p>Join our VR-integrated online coaching platform with real-time tracking and expert guidance.</p>
+    <img src="https://i.postimg.cc/02B0yy7Q/360-F-262149183-4-Fvk-Dgc-LNd-Xigd-GOMZFvrv-Fsr4-TODfc7.jpg" alt="Home Gym" style="margin-top:2rem; max-width:90%; border-radius:12px; box-shadow: 0 5px 20px rgba(0,0,0,0.6);">
+  </section>
 
   <section id="tips">
     <h2 style="text-align:center; color:#faf9f8">Tips & Motivation</h2>
@@ -123,19 +154,72 @@
         <p>Always warm up for at least 10 minutes before starting your workout.</p>
       </div>
       <div class="card">
-        <img src="https://i.postimg.cc/W1KvbTfw/pngtree-dark-fitness-room-with-training-equipment-and-black-dumbbells-on-the-image-3698810.jpg" alt="Nutrition">
+        <img src="https://i.postimg.cc/y8JpVCfX/article-7866255-foods-you-should-eat-every-week-to-lose-weight-04-d58e9c481bce4a29b47295baade4072d.jpg" alt="Nutrition">
         <h3>Fuel Your Body</h3>
         <p>Consume balanced meals with proteins, carbs, and healthy fats after each session.</p>
       </div>
       <div class="card">
-        <img src="https://i.postimg.cc/hGy7GzR3/isolated-dumbbell-concept-fitness-equipment-for-gym-workout-strength-training-bodybuilding-and-power.jpg" alt="VR Training">
+        <img src="https://i.postimg.cc/FRLQ1nhw/The-Top-VR-and-AR-Fitness-Apps.jpg" alt="VR Training">
         <h3>VR Training</h3>
         <p>Immersive VR coaching that simulates real-world gym environments at home.</p>
       </div>
     </div>
   </section>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/I_RYujJvZ7s?si=qH61hE7mOSIYdmSa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lu_BObG6dj8?si=BiGxvuNFy4UvT5dv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <section id="calories"> 
+    <h2>Understanding Calorie Intake</h2>
+    <p>Calories are units of energy. When you eat or drink, you're giving your body calories. Your body uses this energy for everything — from breathing to lifting weights.</p>
+    <h3 style="color:#ffa500;">How Many Calories Do You Need?</h3>
+    <p>This depends on your age, gender, weight, activity level, and fitness goals:</p>
+    <ul>
+      <li><strong>To lose weight:</strong> Eat fewer calories than your body uses.</li>
+      <li><strong>To maintain weight:</strong> Balance the calories you eat and burn.</li>
+      <li><strong>To gain weight/muscle:</strong> Eat more calories with a focus on protein.</li>
+    </ul>
+    <h3 style="color:#ffa500;">Good Sources of Calories</h3>
+    <ul>
+      <li>Protein: Chicken, eggs, tofu, fish</li>
+      <li>Carbs: Brown rice, oats, sweet potatoes</li>
+      <li>Fats: Avocado, nuts, olive oil</li>
+    </ul>
+    <h3 style="color:#ffa500;">Tracking Calories</h3>
+    <p>Use apps like MyFitnessPal to track your daily intake and match it with your fitness goals. Consistency is key!</p>
+  </section>
+
+  <!-- Kod awal tetap sama seperti sebelumnya ... -->
+
+ <section id="feedback" style="
+  background: url(https://i.postimg.cc/3wwkJmVG/ai-generated-gym-with-many-equipments-free-photo.jpg) no-repeat center center / cover;
+  background-attachment: fixed;
+  padding: 4rem 2rem;
+">
+  <h2 style="
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff, 0 0 30px #00c3ff;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  ">
+    We Value Your Feedback
+  </h2>
+
+  <p style="text-align:center; margin-bottom: 2rem; color: #f0f0f0;">
+    Help us improve AlphaFit Gym. Share your thoughts!
+  </p>
+
+  <form style="max-width: 600px; margin: auto; background-color: rgba(31, 31, 31, 0.9); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.6);">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- Bahagian selebihnya (contact, chatbot, footer, dan skrip) kekal seperti dalam kod asal anda ... -->
 
   <section id="contact">
     <h2 style="text-align:center; color:#f7f4f0">Contact Us</h2>
@@ -146,6 +230,50 @@
       <p>Address: Jalan Fitness, Kuala Lumpur, Malaysia</p>
     </div>
   </section>
+
+  <!-- Chatbot Widget -->
+  <div id="chatbot" style="position:fixed; bottom:20px; right:20px; z-index:9999;">
+    <button onclick="toggleChat()" style="background:#0059ff; color:#fff; border:none; border-radius:50%; width:60px; height:60px; font-size:30px; cursor:pointer;">💬</button>
+    <div id="chatbox" style="display:none; width:300px; background:#1a1a1a; color:#fff; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.5); padding:1rem; position:absolute; bottom:70px; right:0;">
+      <h4 style="margin-bottom:0.5rem;">Ask Us Anything!</h4>
+      <div id="chatlog" style="height:200px; overflow-y:auto; border:1px solid #333; padding:0.5rem; margin-bottom:0.5rem; font-size:0.9rem;"></div>
+      <input type="text" id="userInput" placeholder="Type your question..." style="width:100%; padding:0.5rem; border-radius:5px; border:none;" onkeypress="handleKey(event)">
+    </div>
+  </div>
+
+  <script>
+    function toggleChat() {
+      const chatbox = document.getElementById('chatbox');
+      chatbox.style.display = chatbox.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function handleKey(event) {
+      if (event.key === 'Enter') {
+        const input = document.getElementById('userInput');
+        const chatlog = document.getElementById('chatlog');
+        const question = input.value.trim();
+        if (!question) return;
+
+        chatlog.innerHTML += <div><strong>You:</strong> ${question}</div>;
+
+        let answer = "Sorry, I didn't understand that.";
+        const q = question.toLowerCase();
+        if (q.includes("price") || q.includes("cost")) {
+          answer = "Our prices vary depending on the service. Contact us for full details!";
+        } else if (q.includes("coach")) {
+          answer = "We provide virtual coaching with personalized plans!";
+        } else if (q.includes("vr")) {
+          answer = "Our VR feature simulates real gym environments for your workouts.";
+        } else if (q.includes("contact")) {
+          answer = "You can email us at mrshawarma02@gmail.com or call +6012-3456789.";
+        }
+
+        chatlog.innerHTML += <div><strong>Bot:</strong> ${answer}</div>;
+        input.value = "";
+        chatlog.scrollTop = chatlog.scrollHeight;
+      }
+    }
+  </script>
 
   <footer>
     <p>&copy; 2025 AlphaFit Gym By Nik Salman. All rights reserved.</p>
