@@ -21,10 +21,43 @@
       text-align: center;
       box-shadow: 0 5px 20px rgba(255, 149, 0, 0.3);
     }
-    header h1 {
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .gym-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .plate {
+      width: 15px;
+      height: 40px;
+      background: #fff;
+      border-radius: 3px;
+      box-shadow: 0 0 10px #00c3ff;
+    }
+
+    .bar {
+      width: 100px;
+      height: 10px;
+      background: #00c3ff;
+      border-radius: 5px;
+    }
+
+    .logo h1 {
       font-size: 3rem;
       color: #fff;
+      margin: 0;
     }
+
     nav {
       display: flex;
       justify-content: center;
@@ -127,11 +160,19 @@
 </head>
 <body>
   <header>
-    <h1>AlphaFit Gym</h1>
+    <div class="logo">
+      <div class="gym-logo">
+        <div class="plate left"></div>
+        <div class="bar"></div>
+        <div class="plate right"></div>
+      </div>
+      <h1>AlphaFit Gym</h1>
+    </div>
     <p>Online Coaching • VR Fitness • Tips & Motivation</p>
   </header>
-
-  <nav>
+</body>
+</html>
+<nav>
     <a href="#home">Home</a>
     <a href="#tips">Tips & Motivation</a>
     <a href="#calories">Calories Intake</a>
